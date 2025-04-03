@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+   <header class="navbar">
+        <div class="logo">My Port<span class="folio">folio</span></div>
+        <button class="nav-toggle" id="navToggle">☰</button>
+        <nav>
+            <ul class="nav-link" id="navMenu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#skills">SKILLS</a></li> 
+                <li><a href="#aboutme">ABOUTME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+
+                <li><a href="https://x.com/oyebisi_gbenga#:~:text=oyebisi%20gbenga-,%40oyebisi_gbenga,-Get%20verified" class="follow-me">Follow Me</a></li>
+            </ul>
+        </nav>
+   </header> 
+   <main>
+    <section class="hero" id="home">
+        <div class="hero-contact">
+            <h1 >Hi, I'm OYEBISI GBENGA ABIODUN - Frontend Developer</h1>
+            <p class="scroll-anim" id="typewriter">Crafting exceptional user experience through clean, efficient, and innovative frontend development</p>
+        </div>
+    </section>
+    <section class="projects scroll-anim" id="projects">
+        <h2>Featured Projects</h2>
+        <p>Explore my best frontend projects</p>
+        <div class="project-gallery">
+            <img src="images/tech1.jpg" alt="project 1">
+            <img src="images/tech3.jpg" alt="project 2">
+            <img src="images/tech4.jpg" alt="project 3">
+        </div>   
+    </section>
+    <section class="skills-section scroll-anim" id="skills">
+        <div class="skills-content" >
+            <h2>Skills & Experience:</h2>
+            <h3>What I Bring to the Table</h3>
+            <p>Proficient in modern frontend technologies, with a proven track record of delivering high-quality, scalable, and user-friendly web applications.</p>
+            <div class="skills-grid">
+                <div class="skill-item">  
+                    <img src="icons image/images.png" alt="HTML5">
+                    <h4>HTML5</h4>
+                    <p>Semantic markup for accessible and SEO-friendly web content</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icons image/css image.png" alt="CSS3">
+                    <h4>CSS3</h4>
+                    <p>Styling and layout expertise, including responsive design and animations</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icons image/javascript.webp" alt="JavaScript">
+                    <h4>JavaScript</h4>
+                    <p>Dynamic functionality and interactivity using modern JavaScript frameworks</p>
+                </div>
+                <div class="skill-item">
+                    <img src="icons image/react.png" alt="React">
+                    <h4>React</h4>
+                    <p>Building reusable UI components for scalable and maintainable applications</p>
+                </div>
+                <a href="skill.html" class="see-more">See More Skills...</a>
+            </div>
+        </div>
+        <div class="skills-image">
+            <img src="images/tech3.jpg" alt="Developer at work">
+        </div>
+       
+    </section>
+    <section class="about-me-area section-gap scroll-anim" id="aboutme">
+        <div class="container">
+            <div class="about-row">
+                <div class="about-left">
+                    <div class="img-about">
+                        <div class="overlay"></div>
+                        <div class="img" style="background-image: url(images/IMG-20240812-WA0034.jpg);"></div>
+                    </div>
+              </div>
+              <div class="about-right">
+                <h6>About Me</h6>
+                <h1 class="text-uppercase">Personal Details</h1>
+                <div class="about-content">
+                    <p class="summary">Oyebisi Gbenga, from Oyo State, Nigeria, I earned a National Diploma in Business Administration, also a Degree Holder (Bsc) in Business Administration. Through internships,..<button class="show-more">Show More</button></p>
+                   
+                <ul class="about-info">
+                    <li><span>Name</span> <span>Oyebisi Gbenga Abiodun.</span></li>
+                    <li><span>Address</span> <span> No 32, SDP office Aare Ibadan, Oyo State</span></li>
+                    <li><span>Email</span> <span>oyebisioluwagbemiga@gmail.com</span></li>
+                    <li><span>Phone</span> <span>+234 8161501420</span></li>
+                </ul>
+                </div>
+               
+              </div>
+           </div>
+           <div class="popup" id="aboutPopup" style="display: none;">
+            <div class="popup-content">
+                <p class="full-text">Oyebisi Gbenga, from Oyo State, Nigeria, I earned a national diploma (ND) in Business Administrationin. A degree holder (Bsc) in Business Administartion . Through internships, I developed expertise in frontend programming. During NYSC at a Kogi asaya camp Kabba, I enhanced a month certificate Basics skills in Html,css and bootstrap . Post-service, I pursued frontend development, mastering HTML, CSS, JavaScript, bootstrap and React for responsive web interfaces. I also trained as a virtual assistant, skilled in Microsoft Office. My passion for sustainability led to renewable energy expertise, focusing oon teaching as  school instructor, reflecting my commitment to innovative, impactful solutions.<span class="cursor">|</span> </p>
+                <button class="close-popup">Close</button> 
+            </div>
+        </div>
+        </div>
+        
+    </section>
+    <section class="qualifications scroll-anim" id="qualifications">
+        <h2>Qualifications & Certificates</h2>
+        <p>My journey in education and skill-building.</p>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="content">
+                    <h3>National Youth Service Corp (NYSC) Certificate</h3>
+                    <p>Contributed my skill as a Business Administration, School instructor also a secretary at Bay of Excelent Academy</p>
+                    <p class="date">FEB 2024 - JAN 2025</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="content">
+                    <h3> National Diploma</h3>
+                    <p>Completed with a focus on Business Administration</p>
+                    <p class="date">JAN 2013 - DEC 2016</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item left">
+                <div class="content">
+                    <h3>Frontend Development Certificate</h3>
+                    <p>Learned HTML, CSS, JS, Bootstrap, Tailwind, React</p>
+                    <p class="date">MARTCH 2024 - PRESENT</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="content">
+                    <h3>Virtual Assistant Certificate</h3>
+                    <p> Microsoft Office, CCTV installation...</p>
+                    <p class="date">FEB 2025 - PRESENT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section id="contact" class="scroll-anim">
+        <div class="action">
+            <h2>Let's Connect: <span class="highlight">Contact Me</span></h2>
+            <p>I'm always open to new opportunities and collaboration. Feel free to reach out to discuss your project or just say hello!</p>
+            <div class="contact-form-wrapper">
+                <form action="https://formsubmit.co/soyobipelumi@gmail.com" method="POST" class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required> 
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <div class="form-group">
+                        <input type="submit" value="Send Message" class="btn-primary">
+                    </div>
+                </form>
+                <div class="thank-you" style="display: none;">
+                    <p>Thank You! Your message has been sent.</p>
+                    <button type="button" class="close-thank-you">Close</button>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-box">
+                    <h3>Email</h3>
+                    <a href="mailto:soyobipelumi@gmail.com">oyebisioluwagbemiga@gmail.com</a>
+                </div>
+                <div class="contact-box">
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/john-soyobi-546b0134b" target="_blank">linkedin.com/in/john-soyobi-546b0134b</a>
+                </div>
+                <div class="contact-box">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/divcode-web" target="_blank">github.com/divcode-web</a>
+                </div>
+            </div>
+        </div>
+    </section>
+   </main>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-left">
+            <div class="footer-brand">
+                <span class="logo">My Port<span class="folio">folio</span></span>
+            </div>
+            <h3>Contact Me</h3>
+            <p><i class="fas fa-envelope"></i> oyebisioluwagbemiga@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +234 8154125721</p>
+            <p><i class="fas fa-map-marker-alt"></i> 32, SDP office Aare Ibadan, Oyo State</p>
+        </div>
+        <div class="footer-middle">
+            <h3>Stay Updated</h3>
+            <form action="https://formsubmit.co/soyobipelumi@gmail.com" method="POST" class="newsletter-form" id="newsletterForm">
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="hidden" name="_subject" value="New Newsletter Subscriber">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit" class="subscribe-btn">Subscribe</button>
+            </form>
+            <div class="thank-you" style="display: none;">
+                <p>Thank You! You’re subscribed.</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#skills">SKILLS</a></li> 
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#aboutme">ABOUTME</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Divineportfolio. All Rights Reserved | Powered by Innovation & Sustainability</p>
+        <div class="social-media-bottom">
+            <ul>
+                <li><a href="https://facebook.com/yourprofile" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://github.com/divcode-web" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+                <li><a href=https://x.com/j_divine99?s=21" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/yourprofile" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://linkedin.com/in/john-soyobi-546b0134b" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://wa.me/2348154125721" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </div>
+  </footer>
+    <button class="back-to-top" title="Back to Top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+    </button>
+   <script src="script.js"></script>
+</body>
+</html>    
