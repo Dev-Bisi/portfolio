@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     type();
 
+
     // --- Scroll-Triggered Break/Arrange Animation ---
     const scrollElements = document.querySelectorAll(".scroll-anim");
 
